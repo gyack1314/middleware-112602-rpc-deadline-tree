@@ -1,0 +1,13 @@
+{"at":0,"kind":"root","record":{"root":"x","reply_by":8,"reserve":2}}
+{"at":1,"kind":"call","record":{"root":"x","child":"p","kind":"prepare","asset":"jig"}}
+{"at":1,"kind":"call","record":{"root":"x","child":"c","kind":"pure"}}
+{"at":2,"kind":"accepted","record":{"root":"x","child":"p"}}
+{"at":3,"kind":"cancel","record":{"root":"x"}}
+{"at":4,"kind":"root","record":{"root":"y","reply_by":15,"reserve":2}}
+{"at":5,"kind":"call","record":{"root":"y","child":"next","kind":"prepare","asset":"jig"}}
+{"at":6,"kind":"restart","record":{}}
+{"at":8,"kind":"result","record":{"root":"x","child":"p","state":"unknown"}}
+{"at":9,"kind":"call","record":{"root":"x","child":"free","parent":"p","kind":"cleanup","asset":"jig","cleanup_until":14}}
+{"at":10,"kind":"result","record":{"root":"x","child":"p","state":"released"}}
+{"at":11,"kind":"call","record":{"root":"y","child":"next","kind":"prepare","asset":"jig"}}
+{"at":12,"kind":"inspect","record":{"root":"y"}}

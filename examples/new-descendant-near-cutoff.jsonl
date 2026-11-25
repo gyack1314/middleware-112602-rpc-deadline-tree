@@ -1,0 +1,7 @@
+{"at":0,"kind":"root","record":{"root":"q","reply_by":9,"reserve":3}}
+{"at":1,"kind":"call","record":{"root":"q","child":"stage","kind":"prepare","asset":"c"}}
+{"at":2,"kind":"accepted","record":{"root":"q","child":"stage"}}
+{"at":3,"kind":"call","record":{"root":"q","child":"check","parent":"stage","kind":"pure"}}
+{"at":6,"kind":"call","record":{"root":"q","child":"late","parent":"stage","kind":"pure"}}
+{"at":8,"kind":"result","record":{"root":"q","child":"check","state":"done"}}
+{"at":9,"kind":"inspect","record":{"root":"q"}}
